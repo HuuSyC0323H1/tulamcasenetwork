@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>Title</title>
-    <link rel="stylesheet" href="css/stylefriend.css">
+    <link rel="stylesheet" href="../css/stylefriend.css">
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
     <script src="https://kit.fontawesome.com/b2a8554868.js" crossorigin="anonymous"></script>
@@ -28,7 +28,7 @@
             </ul>
         </div>
         <div class="search-box">
-            <img src="css/images/search.png" alt="">
+            <img src="../css/images/search.png" alt="">
             <label>
                 <input type="text" placeholder="Search">
             </label>
@@ -36,7 +36,7 @@
     </div>
     <div class="nav-right">
         <div class="nav-user-icon online" onclick="settingsMenuToggle()">
-            <img src="css/images/profile-pic.png" alt="">
+            <img src="../css/images/profile-pic.png" alt="">
         </div>
     </div>
     <!--setting menu-->
@@ -46,7 +46,7 @@
         </div>
         <div class="setting-menu-inner">
             <div class="user-profile">
-                <img src="css/images/profile-pic.png" alt="">
+                <img src="../css/images/profile-pic.png" alt="">
                 <div>
                     <p>Amina</p>
                     <a href="#">See your profile</a>
@@ -54,7 +54,7 @@
             </div>
             <hr>
             <div class="user-profile">
-                <img src="css/images/feedback.png" alt="">
+                <img src="../css/images/feedback.png" alt="">
                 <div>
                     <p>Give Feedback</p>
                     <a href="#">Help us to improve the new design</a>
@@ -62,20 +62,20 @@
             </div>
             <hr>
             <div class="setting-links">
-                <img src="css/images/setting.png" class="setting-icon" alt="">
-                <a href="#">Settings & Privacy <img src="css/images/arrow.png" width="10" alt=""></a>
+                <img src="../css/images/setting.png" class="setting-icon" alt="">
+                <a href="#">Settings & Privacy <img src="../css/images/arrow.png" width="10" alt=""></a>
             </div>
             <div class="setting-links">
-                <img src="css/images/help.png" class="setting-icon" alt="">
-                <a href="#">Help & Support <img src="css/images/arrow.png" width="10" alt=""></a>
+                <img src="../css/images/help.png" class="setting-icon" alt="">
+                <a href="#">Help & Support <img src="../css/images/arrow.png" width="10" alt=""></a>
             </div>
             <div class="setting-links">
-                <img src="css/images/display.png" class="setting-icon" alt="">
-                <a href="#">Display & Accessibility <img src="css/images/arrow.png" width="10" alt=""></a>
+                <img src="../css/images/display.png" class="setting-icon" alt="">
+                <a href="#">Display & Accessibility <img src="../css/images/arrow.png" width="10" alt=""></a>
             </div>
             <div class="setting-links">
-                <img src="css/images/logout.png" class="setting-icon" alt="">
-                <a href="#">Logout<img src="css/images/arrow.png" width="10" alt=""></a>
+                <img src="../css/images/logout.png" class="setting-icon" alt="">
+                <a href="#">Logout<img src="../css/images/arrow.png" width="10" alt=""></a>
             </div>
         </div>
     </div>
@@ -89,66 +89,116 @@
             <i class="fa-solid fa-gear fa-2xs"></i>
         </div>
         <div class="imp-links">
-            <a href="#"><img class="icon-profile" src="css/images/news.png" alt="">Hữu Sỹ</a>
-            <a href="#"><img src="css/images/friends.png" alt="">Friends</a>
-            <a href="#"><img src="css/images/group.png" alt="">Group</a>
-            <a href="#"><img src="css/images/marketplace.png" alt="">Marketplace</a>
-            <a href="#"><img src="css/images/watch.png" alt="">Watching</a>
+            <a href="#"><img class="icon-profile" src="../css/images/news.png" alt="">Hữu Sỹ</a>
+            <a href="#"><img src="../css/images/friends.png" alt="">Friends</a>
+            <a href="#"><img src="../css/images/group.png" alt="">Group</a>
+            <a href="#"><img src="../css/images/marketplace.png" alt="">Marketplace</a>
+            <a href="#"><img src="../css/images/watch.png" alt="">Watching</a>
         </div>
     </div>
     <!--    left-sidebar-->
 
     <!--    main-content-->
     <div class="main-content">
+        <div class="xc">
+            <div class="xcv">
+                <div class="xcv-left"><h3>Lời mời kết bạn</h3></div>
+                <div class="xcv-right"><a href="#">Xem tất cả</a></div>
+            </div>
+            <div class="friend-container">
+                <div class="friend-card">
+                    <img src="../css/images/pic1.jpg" alt="Friend's Name">
+                    <h2>Friend's Name</h2>
+                    <p>Shared Friends: 10</p>
+                    <button class="confirm-btn">Confirm</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+                <div class="friend-card">
+                    <img src="../css/images/pic1.jpg" alt="Friend's Name">
+                    <h2>Friend's Name</h2>
+                    <p>Shared Friends: 10</p>
+                    <button class="confirm-btn">Confirm</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+                <div class="friend-card">
+                    <img src="../css/images/pic1.jpg" alt="Friend's Name">
+                    <h2>Friend's Name</h2>
+                    <p>Shared Friends: 10</p>
+                    <button class="confirm-btn">Confirm</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+                <div class="friend-card">
+                    <img src="../css/images/pic1.jpg" alt="Friend's Name">
+                    <h2>Friend's Name</h2>
+                    <p>Shared Friends: 10</p>
+                    <button class="confirm-btn">Confirm</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+                <div class="friend-card">
+                    <img src="../css/images/pic1.jpg" alt="Friend's Name">
+                    <h2>Friend's Name</h2>
+                    <p>Shared Friends: 10</p>
+                    <button class="confirm-btn">Confirm</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+                <div class="friend-card">
+                    <img src="../css/images/pic1.jpg" alt="Friend's Name">
+                    <h2>Friend's Name</h2>
+                    <p>Shared Friends: 10</p>
+                    <button class="confirm-btn">Confirm</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+        </div>
+        <div id="load-more">Load More</div>
         <div class="xcv">
-            <div class="xcv-left"><h3>Lời mời kết bạn</h3></div>
+            <div class="xcv-left"><h3>Những người bạn có thể biết</h3></div>
             <div class="xcv-right"><a href="#">Xem tất cả</a></div>
         </div>
         <div class="friend-container">
             <div class="friend-card">
-                <img src="css/images/pic1.jpg" alt="Friend's Name">
+                <img src="../css/images/pic1.jpg" alt="Friend's Name">
                 <h2>Friend's Name</h2>
                 <p>Shared Friends: 10</p>
                 <button class="confirm-btn">Confirm</button>
                 <button class="delete-btn">Delete</button>
             </div>
             <div class="friend-card">
-                <img src="css/images/pic1.jpg" alt="Friend's Name">
+                <img src="../css/images/pic1.jpg" alt="Friend's Name">
                 <h2>Friend's Name</h2>
                 <p>Shared Friends: 10</p>
                 <button class="confirm-btn">Confirm</button>
                 <button class="delete-btn">Delete</button>
             </div>
             <div class="friend-card">
-                <img src="css/images/pic1.jpg" alt="Friend's Name">
+                <img src="../css/images/pic1.jpg" alt="Friend's Name">
                 <h2>Friend's Name</h2>
                 <p>Shared Friends: 10</p>
                 <button class="confirm-btn">Confirm</button>
                 <button class="delete-btn">Delete</button>
             </div>
             <div class="friend-card">
-                <img src="css/images/pic1.jpg" alt="Friend's Name">
+                <img src="../css/images/pic1.jpg" alt="Friend's Name">
                 <h2>Friend's Name</h2>
                 <p>Shared Friends: 10</p>
                 <button class="confirm-btn">Confirm</button>
                 <button class="delete-btn">Delete</button>
             </div>
             <div class="friend-card">
-                <img src="css/images/pic1.jpg" alt="Friend's Name">
+                <img src="../css/images/pic1.jpg" alt="Friend's Name">
                 <h2>Friend's Name</h2>
                 <p>Shared Friends: 10</p>
                 <button class="confirm-btn">Confirm</button>
                 <button class="delete-btn">Delete</button>
             </div>
             <div class="friend-card">
-                <img src="css/images/pic1.jpg" alt="Friend's Name">
+                <img src="../css/images/pic1.jpg" alt="Friend's Name">
                 <h2>Friend's Name</h2>
                 <p>Shared Friends: 10</p>
                 <button class="confirm-btn">Confirm</button>
                 <button class="delete-btn">Delete</button>
             </div>
         </div>
-        <div id="load-more">Load More</div>
     </div>
     <!--    main-content-->
 </div>
@@ -167,7 +217,7 @@
             const newFriendCard = document.createElement('div');
             newFriendCard.className = 'friend-card';
             newFriendCard.innerHTML = `
-      <img src="css/images/pic1.jpg" alt="Friend's Name">
+      <img src="../css/images/pic1.jpg" alt="Friend's Name">
       <h2>Friend's Name</h2>
       <p>Shared Friends: 10</p>
       <button class="confirm-btn">Confirm</button>
@@ -193,4 +243,4 @@
         });
     });
 </script>
-<script src="js/script.js"></script>
+<script src="../js/script.js"></script>

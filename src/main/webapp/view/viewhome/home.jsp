@@ -11,7 +11,7 @@
 <html>
 <head>
     <title>Title</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
     <script src="https://kit.fontawesome.com/b2a8554868.js" crossorigin="anonymous"></script>
@@ -89,17 +89,17 @@
         <div class="imp-links">
             <a href="#"><img class="icon-profile" src="images/news.png"  alt="">Huu Sy</a>
             <a href="viewfriend.jsp"><img src="images/friends.png" alt="">Friends</a>
-            <a href="#"><img src="css/images/group.png" alt="">Group</a>
-            <a href="#"><img src="css/images/marketplace.png" alt="">Marketplace</a>
-            <a href="#"><img src="css/images/watch.png" alt="">Watching</a>
+            <a href="#"><img src="../css/images/group.png" alt="">Group</a>
+            <a href="#"><img src="../css/images/marketplace.png" alt="">Marketplace</a>
+            <a href="#"><img src="../css/images/watch.png" alt="">Watching</a>
             <a href="#">See more</a>
         </div>
         <div class="shortcut-links">
             <p>Your shortcuts</p>
-            <a href="#"><img src="css/images/shortcut-1.png" alt="">WebDevelop</a>
-            <a href="#"><img src="css/images/shortcut-1.png" alt="">WebDevelop</a>
-            <a href="#"><img src="css/images/shortcut-1.png" alt="">WebDevelop</a>
-            <a href="#"><img src="css/images/shortcut-1.png" alt="">WebDevelop</a>
+            <a href="#"><img src="../css/images/shortcut-1.png" alt="">WebDevelop</a>
+            <a href="#"><img src="../css/images/shortcut-1.png" alt="">WebDevelop</a>
+            <a href="#"><img src="../css/images/shortcut-1.png" alt="">WebDevelop</a>
+            <a href="#"><img src="../css/images/shortcut-1.png" alt="">WebDevelop</a>
         </div>
     </div>
     <!--    left-sidebar-->
@@ -108,30 +108,30 @@
     <div class="main-content">
         <div class="story-gallery">
             <div class="story story1">
-                <img src="css/images/upload.png" alt="">
+                <img src="../css/images/upload.png" alt="">
                 <p>Post Story</p>
             </div>
             <div class="story story2">
-                <img src="css/images/member-1.png" alt="">
+                <img src="../css/images/member-1.png" alt="">
                 <p>Post Story</p>
             </div>
             <div class="story story3">
-                <img src="css/images/member-2.png" alt="">
+                <img src="../css/images/member-2.png" alt="">
                 <p>Post Story</p>
             </div>
             <div class="story story4">
-                <img src="css/images/member-3.png" alt="">
+                <img src="../css/images/member-3.png" alt="">
                 <p>Post Story</p>
             </div>
             <div class="story story5">
-                <img src="css/images/member-4.png" alt="">
+                <img src="../css/images/member-4.png" alt="">
                 <p>Post Story</p>
             </div>
         </div>
 
         <div class="write-post-container">
             <div class="user-profile">
-                <img src="css/images/profile-pic.png" alt="">
+                <img src="../css/images/profile-pic.png" alt="">
                 <div>
                     <p>Huu Sy</p>
                     <small>Public <i class="fas fa-caret-down"></i> </small>
@@ -143,16 +143,16 @@
                     <textarea rows="3" placeholder="What`s on your mind, Huu Sy"></textarea>
                 </label>
                 <div class="add-post-links">
-                    <a href="#"><img src="css/images/live-video.png" alt="">Live Video</a>
-                    <a href="#"><img src="css/images/photo.png" alt="">Photo/Video</a>
-                    <a href="#"><img src="css/images/feeling.png" alt="">Felling/Activity</a>
+                    <a href="#"><img src="../css/images/live-video.png" alt="">Live Video</a>
+                    <a href="#"><img src="../css/images/photo.png" alt="">Photo/Video</a>
+                    <a href="#"><img src="../css/images/feeling.png" alt="">Felling/Activity</a>
                 </div>
             </div>
         </div>
         <div class="post-container">
             <div class="post-row">
                 <div class="user-profile">
-                    <img src="css/images/profile-pic.png" alt="">
+                    <img src="../css/images/profile-pic.png" alt="">
                     <div>
                         <p>Huu Sy</p>
                         <span>June 20 2023, 14:34 AM</span>
@@ -165,24 +165,24 @@
                 Chao tat ca ae cua lop Java cua trung tam cong nghe CodeGym <a href="#">#EasyTutorials</a>
                 <a href="#">#YoutubeChannel</a>
             </p>
-            <img src="css/images/feed-image-1.png" class="post-img" alt="">
+            <img src="../css/images/feed-image-1.png" class="post-img" alt="">
 
             <div class="post-row">
                 <div class="activity-icons">
-                    <div><img src="css/images/like-blue.png" alt="">120</div>
-                    <div><img src="css/images/comments.png" alt="">45</div>
-                    <div><img src="css/images/share.png" alt="">20</div>
+                    <div><img src="../css/images/like-blue.png" alt="">120</div>
+                    <div><img src="../css/images/comments.png" alt="">45</div>
+                    <div><img src="../css/images/share.png" alt="">20</div>
                 </div>
 
                 <div class="post-profile-icon">
-                    <img src="css/images/profile-pic.png" alt=""> <i class="fas fa-caret-down"></i>
+                    <img src="../css/images/profile-pic.png" alt=""> <i class="fas fa-caret-down"></i>
                 </div>
             </div>
         </div>
         <div class="post-container">
             <div class="post-row">
                 <div class="user-profile">
-                    <img src="css/images/profile-pic.png" alt="">
+                    <img src="../css/images/profile-pic.png" alt="">
                     <div>
                         <p>Huu Sy</p>
                         <span>June 20 2023, 14:34 AM</span>
@@ -195,24 +195,24 @@
                 Chao tat ca ae cua lop Java cua trung tam cong nghe CodeGym <a href="#">#EasyTutorials</a>
                 <a href="#">#YoutubeChannel</a>
             </p>
-            <img src="css/images/feed-image-2.png" class="post-img" alt="">
+            <img src="../css/images/feed-image-2.png" class="post-img" alt="">
 
             <div class="post-row">
                 <div class="activity-icons">
-                    <div><img src="css/images/like-blue.png" alt="">120</div>
-                    <div><img src="css/images/comments.png" alt="">45</div>
-                    <div><img src="css/images/share.png" alt="">20</div>
+                    <div><img src="../css/images/like-blue.png" alt="">120</div>
+                    <div><img src="../css/images/comments.png" alt="">45</div>
+                    <div><img src="../css/images/share.png" alt="">20</div>
                 </div>
 
                 <div class="post-profile-icon">
-                    <img src="css/images/profile-pic.png" alt=""> <i class="fas fa-caret-down"></i>
+                    <img src="../css/images/profile-pic.png" alt=""> <i class="fas fa-caret-down"></i>
                 </div>
             </div>
         </div>
         <div class="post-container">
             <div class="post-row">
                 <div class="user-profile">
-                    <img src="css/images/profile-pic.png" alt="">
+                    <img src="../css/images/profile-pic.png" alt="">
                     <div>
                         <p>Huu Sy</p>
                         <span>June 20 2023, 14:34 AM</span>
@@ -225,24 +225,24 @@
                 Chao tat ca ae cua lop Java cua trung tam cong nghe CodeGym <a href="#">#EasyTutorials</a>
                 <a href="#">#YoutubeChannel</a>
             </p>
-            <img src="css/images/feed-image-3.png" class="post-img" alt="">
+            <img src="../css/images/feed-image-3.png" class="post-img" alt="">
 
             <div class="post-row">
                 <div class="activity-icons">
-                    <div><img src="css/images/like-blue.png" alt="">120</div>
-                    <div><img src="css/images/comments.png" alt="">45</div>
-                    <div><img src="css/images/share.png" alt="">20</div>
+                    <div><img src="../css/images/like-blue.png" alt="">120</div>
+                    <div><img src="../css/images/comments.png" alt="">45</div>
+                    <div><img src="../css/images/share.png" alt="">20</div>
                 </div>
 
                 <div class="post-profile-icon">
-                    <img src="css/images/profile-pic.png" alt=""> <i class="fas fa-caret-down"></i>
+                    <img src="../css/images/profile-pic.png" alt=""> <i class="fas fa-caret-down"></i>
                 </div>
             </div>
         </div>
         <div class="post-container">
             <div class="post-row">
                 <div class="user-profile">
-                    <img src="css/images/profile-pic.png" alt="">
+                    <img src="../css/images/profile-pic.png" alt="">
                     <div>
                         <p>Huu Sy</p>
                         <span>June 20 2023, 14:34 AM</span>
@@ -255,17 +255,17 @@
                 Chao tat ca ae cua lop Java cua trung tam cong nghe CodeGym <a href="#">#EasyTutorials</a>
                 <a href="#">#YoutubeChannel</a>
             </p>
-            <img src="css/images/feed-image-4.png" class="post-img" alt="">
+            <img src="../css/images/feed-image-4.png" class="post-img" alt="">
 
             <div class="post-row">
                 <div class="activity-icons">
-                    <div><img src="css/images/like-blue.png" alt="">120</div>
-                    <div><img src="css/images/comments.png" alt="">45</div>
-                    <div><img src="css/images/share.png" alt="">20</div>
+                    <div><img src="../css/images/like-blue.png" alt="">120</div>
+                    <div><img src="../css/images/comments.png" alt="">45</div>
+                    <div><img src="../css/images/share.png" alt="">20</div>
                 </div>
 
                 <div class="post-profile-icon">
-                    <img src="css/images/profile-pic.png" alt=""> <i class="fas fa-caret-down"></i>
+                    <img src="../css/images/profile-pic.png" alt=""> <i class="fas fa-caret-down"></i>
                 </div>
             </div>
         </div>
@@ -308,7 +308,7 @@
             <h4>Advertisement</h4>
             <a href="#">Close</a>
         </div>
-        <img src="css/images/advertisement.png" alt="" class="sidebar-ads">
+        <img src="../css/images/advertisement.png" alt="" class="sidebar-ads">
 
         <div class="sidebar-title">
             <h4>Conversation</h4>
@@ -317,19 +317,19 @@
 
         <div class="online-list">
             <div class="online">
-                <img src="css/images/member-1.png" alt="">
+                <img src="../css/images/member-1.png" alt="">
             </div>
             <p>Alison Mina</p>
         </div>
         <div class="online-list">
             <div class="online">
-                <img src="css/images/member-2.png" alt="">
+                <img src="../css/images/member-2.png" alt="">
             </div>
             <p>Alison Mina</p>
         </div>
         <div class="online-list">
             <div class="online">
-                <img src="css/images/member-3.png" alt="">
+                <img src="../css/images/member-3.png" alt="">
             </div>
             <p>Alison Mina</p>
         </div>
@@ -341,4 +341,4 @@
 </div>
 </body>
 </html>
-<script src="js/script.js"></script>
+<script src="../js/script.js"></script>
