@@ -5,7 +5,9 @@ public class Photo {
     private int postID;
     private String photoSource;
 
-    public Photo() {
+    public Photo(int photoID, String photoSource) {
+        this.photoID = photoID;
+        this.photoSource = photoSource;
     }
 
     public Photo(int photoID, int postID, String photoSource) {

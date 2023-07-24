@@ -5,8 +5,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import static com.example.dao.AccountDao.isValidateAccount;
 
-import static DAO.UserDao.isValidUser;
 @WebServlet(value = "/login")
 public class LoginServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) {
@@ -14,7 +14,7 @@ public class LoginServlet extends HttpServlet {
         try {
             String username = request.getParameter("email");
             String password = request.getParameter("pass");
-            if (isValidUser(username,password) == null){
+            if (isValidateAccount(username,password) == null){
                 response.sendRedirect("login.jsp");
             }else {
                 response.sendRedirect("/index");

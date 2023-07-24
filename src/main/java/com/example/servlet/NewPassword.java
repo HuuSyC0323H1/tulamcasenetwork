@@ -1,6 +1,6 @@
 package com.example.servlet;
 
-import connect.DBConnect;
+import com.example.connect.DBConnect;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

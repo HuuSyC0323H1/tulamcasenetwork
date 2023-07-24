@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="30923098-96e9-47e4-82af-c645f8a50d35" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/servlet/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/servlet/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dao/PhotoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dao/PhotoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/model/Photo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/model/Photo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/servlet/PhotoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/servlet/PhotoServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +67,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -130,7 +131,7 @@
       <updated>1690070646332</updated>
       <workItem from="1690070647338" duration="691000" />
       <workItem from="1690082887361" duration="22000" />
-      <workItem from="1690169834507" duration="4469000" />
+      <workItem from="1690169834507" duration="5607000" />
     </task>
     <servers />
   </component>

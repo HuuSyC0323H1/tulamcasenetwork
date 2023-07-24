@@ -1,7 +1,7 @@
 package com.example.servlet;
 
-import DAO.PhotoDao;
-import Model.Photos;
+import com.example.dao.PhotoDao;
+import com.example.model.Photo;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -20,8 +20,7 @@ public class PhotoServlet extends HttpServlet {
 //        response.setContentType("text/html; charset=UTF-8");
         //b1:get data form photo
         //b2: set data toi jsp
-        PhotoDao photoDao = new PhotoDao();
-        List<Photos> list = photoDao.getListPhoto();
+        List<Photo> list = PhotoDao.getListPhoto();
         request.setAttribute("listPhotos", list);
         RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
         dispatcher.forward(request,response);

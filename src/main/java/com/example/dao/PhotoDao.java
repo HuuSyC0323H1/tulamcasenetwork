@@ -21,7 +21,7 @@ public class PhotoDao {
             ps = conn.prepareStatement(query);
             rs = ps.executeQuery();
             while (rs.next()){
-                list.add(new Photo(rs.getString(2), rs.getString(3)));
+                list.add(new Photo(Integer.parseInt(rs.getString("photoID")), rs.getString("photoSource")));
 
             }
         }
@@ -31,11 +31,11 @@ public class PhotoDao {
         return list;
     }
 
-    public static void main(String[] args) {
-        PhotoDao photoDao = new PhotoDao();
-        List<Photo> list = photoDao.getListPhoto();
-        for (Photo p: list) {
-            System.out.println(p);
-        }
-    }
+//    public static void main(String[] args) {
+//        PhotoDao photoDao = new PhotoDao();
+//        List<Photo> list = photoDao.getListPhoto();
+//        for (Photo p: list) {
+//            System.out.println(p);
+//        }
+//    }
 }
