@@ -1,7 +1,9 @@
 package com.example.servlet;
 
-import Validate.ValidRegistrationInfo;
-import connect.SaveDB;
+import com.example.connect.SaveDB;
+import com.example.validate.ValidateRegister;
+
+
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -20,7 +22,7 @@ public class RegisterServlet extends HttpServlet {
         String email = req.getParameter("email");
         String password = req.getParameter("pass");
         RequestDispatcher dispatcher;
-        if (ValidRegistrationInfo.isValidRegistrationInfo(email,password)){
+        if (ValidateRegister.isValidRegistrationInfo(email,password)){
             SaveDB.saveRegisterInfor(email,password);
             resp.getWriter().println("Đăng ký thành công");
             dispatcher = req.getRequestDispatcher("/login.jsp");
